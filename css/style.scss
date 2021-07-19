@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+$primary-text:#252b33;
+$p-color:#8191a6;
+
+body{
+    a{
+        color:$primary-text;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        font-family: 'Roboto Condensed', sans-serif;
+
+        
+    }
+}
+
+#home{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 80vh;
+}
+
+
+#service{
+   .img{
+    height: 500px;
+    width: 750px;
+    margin-left: -300px;
+   }
+}
+
+.icons{
+    font-size: 40px;
+  
+}
+
+.desc-title{
+    font-size: 13pt;
+    text-transform: uppercase;
+    color: $primary-text;
+}
+
+.lead{
+    color: $p-color;
+    font-size: 14pt !important;
+}
+
+.img2{
+    width: 594px !important;
+    height: 707px !important;
+}
+
+#build{
+    strong{
+        font-size: 44pt;
+        
+    }
+    h5{
+        font-size: 15pt;
+        text-transform: uppercase;
+        color: $p-color;
+    }
+    h3{
+        font-size: 34pt;
+        color: $primary-text;
+    }
+    p{
+        font-size: 14pt;
+        color: $p-color;
+    }
+
+}
+
+
+#contact{
+    background-image: url(../img/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .box{
+        
+      box-shadow: 10px 0 70px 10px #888;
+      border-radius: 10px;
+    }
+}
+
+#footer{
+    border-top: 1px solid salmon;
+    
+
+    
+}
+.scl-icn{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.scl-icn:hover{
+    transform: rotate(360deg);
+    color: salmon;
+}
+
+
+@media(max-width:1024px){
+    .img{
+        height: 600px!important;
+        width: 100%;
+         margin-left:-400px !important; 
+    }
+}

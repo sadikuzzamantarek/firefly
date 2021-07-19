@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body a {
+  color: #252b33;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#home {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 80vh;
+}
+
+#service .img {
+  height: 500px;
+  width: 750px;
+  margin-left: -300px;
+}
+
+.icons {
+  font-size: 40px;
+}
+
+.desc-title {
+  font-size: 13pt;
+  text-transform: uppercase;
+  color: #252b33;
+}
+
+.lead {
+  color: #8191a6;
+  font-size: 14pt !important;
+}
+
+.img2 {
+  width: 594px !important;
+  height: 707px !important;
+}
+
+#build strong {
+  font-size: 44pt;
+}
+
+#build h5 {
+  font-size: 15pt;
+  text-transform: uppercase;
+  color: #8191a6;
+}
+
+#build h3 {
+  font-size: 34pt;
+  color: #252b33;
+}
+
+#build p {
+  font-size: 14pt;
+  color: #8191a6;
+}
+
+#contact {
+  background-image: url(../img/bg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact .box {
+  -webkit-box-shadow: 10px 0 70px 10px #888;
+          box-shadow: 10px 0 70px 10px #888;
+  border-radius: 10px;
+}
+
+#footer {
+  border-top: 1px solid salmon;
+}
+
+.scl-icn {
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.scl-icn:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: salmon;
+}
+
+@media (max-width: 1024px) {
+  .img {
+    height: 600px !important;
+    width: 100%;
+    margin-left: -400px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
